@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+  background-image:url('RS_Pondok_Indah_-_Pondok_Indah.jpg');
+
+ 
+}
+
+.btn, button {
+  display: inline-block;
+  background: #ff9900;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover,
+button:hover {
+  background: #b36b00;
+}
+
+.form-container,
+.container {
+  width: 350px;
+  background: white;
+  padding: 20px;
+  margin: 100px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+input, select, textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #ff9900;
+  outline: none;
+}
+
+.error {
+  color: rgb(255, 153, 0);
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.btn-batal {
+  background: #ccc;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn-batal:hover {
+  background: #999;
+}
